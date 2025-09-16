@@ -21,7 +21,7 @@ jobs:
       - name: Run Modified DAST Scan
         uses: ./dast-action
         with:
-          target_url: "https://owasp.org/www-project-webgoat/"
+          target_url: "https://google-gruyere.appspot.com/"
           accuknox_endpoint: ${{ secrets.ACCUKNOX_ENDPOINT }}
           tenant_id: ${{ secrets.TENANT_ID }}
           accuknox_token: ${{ secrets.ACCUKNOX_TOKEN }}
