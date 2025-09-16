@@ -26,7 +26,7 @@ jobs:
           tenant_id: ${{ secrets.TENANT_ID }}
           accuknox_token: ${{ secrets.ACCUKNOX_TOKEN }}
           label: "zapscanmk"
-          severity_threshold: "High"
+          severity_threshold: "Low"
           scan_type: "baseline"
 
     
