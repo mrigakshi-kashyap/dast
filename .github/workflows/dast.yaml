@@ -21,7 +21,7 @@ jobs:
       - name: Run Modified DAST Scan
         uses: ./dast-action
         with:
-          target_url: "https://juice-shop.herokuapp.com/"
+          target_url: "http://itsecgames.com/"
           accuknox_endpoint: ${{ secrets.ACCUKNOX_ENDPOINT }}
           tenant_id: ${{ secrets.TENANT_ID }}
           accuknox_token: ${{ secrets.ACCUKNOX_TOKEN }}
